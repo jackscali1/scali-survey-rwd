@@ -1,0 +1,36 @@
+
+h1, p {
+  margin:1em auto;
+  text-align:center;
+}
+
+fieldset{
+  margin:1em auto;
+  text-align:center;
+  
+}
+
+label {
+  display:block;
+  margin:0.5rem;
+}
+
+input,textarea,select {
+  width:100%;
+  margin:10px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+.inline{
+  display:inline;
+}
