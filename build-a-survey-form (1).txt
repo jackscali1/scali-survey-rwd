@@ -1,0 +1,90 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<h1 id="title">Scali's Survey</h1>
+<p id="description">This is my first big project benchmark towards my Responsive Web Design Certification!</p>
+<form id="survey-form">
+  <fieldset>
+  <label for="name" id="name-label">
+    Enter Your Name: (required) 
+    <input id="name" type="text" required placeholder="Jack Scali"/>
+  </label>
+  <label for="email" id="email-label">
+    Enter Your Email: (required) 
+    <input id="email" type="email" required placeholder="examplemail@gmail.com"/>
+  </label>
+  <label for="number" id="number-label">
+    Enter a Number: 
+    <input id="number" type="number" placeholder="420" max="999" min="0"/>
+  </label>
+  </fieldset>
+  <fieldset>
+  <label>Is my friend Matthew Large?
+  <select id="dropdown">
+    <option name="" value="0">Select one</option>
+    <option name="radio" value="yes">Yes</option>
+    <option name="radio" value="no">No</option>
+  </select>
+  </label>
+  </fieldset>
+  <fieldset>
+    <legend>Does John know what a skibidi bop is? </legend>
+    <label for="perhaps">perhaps<input id="perhaps" type="radio" value="perhaps" name="skibidi" ></input></label>
+    <label for="wtf">what the frick is a skibidi bop <input id="wtf" type="radio" checked class="inline" name="skibidi" value="wtf">
+    </label>
+  </fieldset>
+  <fieldset>
+    <legend>Should the boys start grinding season 18 APEX?</legend>
+    <label for="yes">yes<input id="yes" type="checkbox" value="yes" checked/></label>
+    <label for="no">no<input id="no" type="checkbox" value="no" /></label>
+  </fieldset>
+  <legend>Additional Comments about John or Matthew my best friends?</legend>
+ <textarea></textarea>
+ <button id="submit" type="submit">SUBMIT</button>
+</form>
+<link rel="stylesheet" href="styles.css">
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1, p {
+  margin:1em auto;
+  text-align:center;
+}
+
+fieldset{
+  margin:1em auto;
+  text-align:center;
+  
+}
+
+label {
+  display:block;
+  margin:0.5rem;
+}
+
+input,textarea,select {
+  width:100%;
+  margin:10px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+.inline{
+  display:inline;
+}
+
+** end of undefined **
+
